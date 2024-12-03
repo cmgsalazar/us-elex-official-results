@@ -6,6 +6,8 @@ For a more thorough insight on how Bronxites vote, I looked at data from the 201
 
 Resulting analysis will be used for a reporting assignment for the [Mott Haven Herald](https://motthavenherald.com/) and [Hunts Point Express](https://huntspointexpress.com/). 
 
+![image](https://cmgsalazar.github.io/newmarkj/how-bronx-voted-elections/images/bx-elex.gif)
+
 ## Data source
 
 * New York City Board of Elections — [Election Results Summary](https://vote.nyc/page/election-results-summary)
