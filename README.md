@@ -6,7 +6,7 @@ For a more thorough insight on how Bronxites vote, I looked at data from the 201
 
 Resulting analysis will be used for a reporting assignment for the [Mott Haven Herald](https://motthavenherald.com/) and [Hunts Point Express](https://huntspointexpress.com/). 
 
-## Data sources
+## Data source
 
 * New York City Board of Elections — [Election Results Summary](https://vote.nyc/page/election-results-summary)
 
@@ -17,3 +17,9 @@ Resulting analysis will be used for a reporting assignment for the [Mott Haven H
 `data` holds raw datasets, downloaded from the NYC BOE website.
 
 `csv` holds the processed datasets for visualization. 
+
+## Visualization
+
+JSON files were downloaded via [NYC Planning](https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page) and [toddwschneider](https://github.com/toddwschneider/nyc-presidential-election-map), then processed through [Mapshaper](https://mapshaper.org/) and Adobe Illustrator and Photoshop.
+
+See [repository](https://github.com/cmgsalazar/cmgsalazar.github.io/tree/main/newmarkj/how-bronx-voted-elections) for image files and prototype page. 
