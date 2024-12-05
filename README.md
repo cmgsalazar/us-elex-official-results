@@ -10,18 +10,27 @@ Resulting analysis will be used for a reporting assignment for the [Mott Haven H
 
 ## Data source
 
-* New York City Board of Elections — [Election Results Summary](https://vote.nyc/page/election-results-summary)
+* Vote counts per election district from [New York City Board of Elections](https://vote.nyc/page/election-results-summary)
+* Election district coordinates from [NYC Planning](https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page) (H/T [toddwschneider](https://github.com/toddwschneider/nyc-presidential-election-map))
+
+**Notes**:
+
+* Boundaries of election districts vary due to redistricting.
+* Shapefiles were processed into JSON through [Mapshaper](https://mapshaper.org/).
 
 ## Content 
 
-`analysis.ipnyb` is the main Python Jupyter notebook used for filtering datasets and processing vote counts for visualization.
-
-`data` holds raw datasets, downloaded from the NYC BOE website.
-
-`csv` holds the processed datasets for visualization. 
+```.
+├── analysis.ipnyb  # main notebook used to filter datasets and process vote counts for visualization
+├── csv             # holds processed datasets for visualization
+├── data            # holds raw datasets, downloaded from the NYC BOE website
+├── json            # holds shapefiles and JSON files for visualization
+├── LICENSE
+└── README.md
+```
 
 ## Visualization
 
-JSON files were downloaded via [NYC Planning](https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page) and [toddwschneider](https://github.com/toddwschneider/nyc-presidential-election-map), then processed through [Mapshaper](https://mapshaper.org/) and Adobe Illustrator and Photoshop.
+Maps were processed through Adobe Illustrator and Photoshop.
 
 See [repository](https://github.com/cmgsalazar/cmgsalazar.github.io/tree/main/newmarkj/how-bronx-voted-elections) for image files and prototype page. 
