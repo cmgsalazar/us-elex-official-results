@@ -8,10 +8,10 @@ Resulting analysis will be used for a reporting assignment for the [Mott Haven H
 
 ![image](https://cmgsalazar.github.io/newmarkj/how-bronx-voted-elections/images/bx-elex.gif)
 
-## Data source
+## Data sources
 
 * Vote counts per election district from [New York City Board of Elections](https://vote.nyc/page/election-results-summary)
-* Election district coordinates from [NYC Planning](https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page) (H/T [toddwschneider](https://github.com/toddwschneider/nyc-presidential-election-map))
+* Election district coordinates from [NYC Department of City Planning](https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page) (H/T [toddwschneider](https://github.com/toddwschneider/nyc-presidential-election-map))
 
 **Notes**:
 
