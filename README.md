@@ -12,6 +12,7 @@ Resulting analysis will be used for a reporting assignment for the [Mott Haven H
 
 * Vote counts per election district from [New York City Board of Elections](https://vote.nyc/page/election-results-summary)
 * Election district coordinates from [NYC Department of City Planning](https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page) (H/T [toddwschneider](https://github.com/toddwschneider/nyc-presidential-election-map))
+* Parks shapefiles from [NYC Open Data](https://nycopendata.socrata.com/Recreation/Parks-Properties/enfh-gkve/about_data)
 
 **Notes**:
 
