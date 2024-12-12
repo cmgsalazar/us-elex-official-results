@@ -42,14 +42,14 @@ Maps were processed through a mix of Datawrapper, QGIS, Mapbox, and Adobe Illust
 
 *Why did I have to use so many tools?* Initially, the assignment was only to map 2024 election night results — hence, this [companion repository](https://github.com/cmgsalazar/us-elex-2024-bx) — for which I tried to simplify my workflow. I ran the `json` and `csv` through Datawrapper, then refined the graph via Illustrator. 
 
-*But then...* Our reporting class decided to compare 2024 data with those of 2016 and 2020. I redid the same process. For the first attempt, I used total vote counts. But, we realized we needed a "fixed" measure of vote differentials for the choropleth map. I decided to re-calculate and plot percentage points instead. 
+*Then...* Our reporting instructors thought to compare 2024 data with those of 2016 and 2020. I redid the same process. For the first attempt, I used total vote counts. But, we realized we needed a "fixed" measure of vote differentials for the choropleth map. I decided to re-calculate and plot percentage points instead. 
 
 We also wanted overlays of roads and parks; hence, QGIS and Illustrator. *(Quick shoutout to Hannah Dormido for the guidance!)*
 
 The first prototype page for the visualization utilized drop-down menus and a JavaScript `event listener` that would show static images of the maps. 
 
-However, the class decided to use tooltips and add annotations to show more details per election district per year — which would honestly be too much work for one person *(me!)* to do on a tight timeline. (I thought `ai2html` might work, but I also don't have the expertise to do this yet.)
+However, our instructors thought it best to add tooltips and annotations to show more details per election district per year — which would honestly be too much work for one person *(me!)* to do on a tight timeline. (I also admittedly don't have the expertise to do this on my own yet.)
 
-So, I explored Mapbox as an option. `json` and `csv` files were refactored via QGIS, then uploaded as tilesets on Mapbox. (As a last resort, I was told to use Datawrapper to replace static images on the first version of our prototype page.)
+So, I explored Mapbox as an option. `json` and `csv` files were refactored via QGIS, then uploaded as tilesets on Mapbox. (As a last resort, I was told to use Datawrapper's `iframe` to replace static images on the first version of our prototype page.)
 
 This is, quite obviously, a living repository for now. We'll see what happens next. 
