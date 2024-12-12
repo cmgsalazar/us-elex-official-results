@@ -6,8 +6,6 @@ For a more thorough insight on how Bronxites vote, I looked at data from the 201
 
 Resulting analysis will be used for a reporting assignment for the [Mott Haven Herald](https://motthavenherald.com/) and [Hunts Point Express](https://huntspointexpress.com/). 
 
-This is part of our class requirement for Craft of Journalism (South Bronx) at the Craig Newmark Graduate School of Journalism at CUNY, under the instruction of Eileen Markey and Ben Fractenberg and the editorship of Joe Hirsch.
-
 ![image](images/bx-elections.gif)
 
 ## Data sources
@@ -40,11 +38,15 @@ Maps were processed through a mix of Datawrapper, QGIS, Mapbox, and Adobe Illust
 
 ### More about the process... 
 
-*Why did I have to use so many tools?* Initially, the assignment was only to map 2024 election night results — hence, this [companion repository](https://github.com/cmgsalazar/us-elex-2024-bx) — for which I tried to simplify my workflow. I ran the `json` and `csv` through Datawrapper, then refined the graph via Illustrator. 
+*Why did I have to use so many tools?* Initially, the reporting assignment was only to map 2024 election night results — hence, this [companion repository](https://github.com/cmgsalazar/us-elex-2024-bx) — for which I tried to simplify my workflow. I ran the `json` and `csv` through Datawrapper, then refined the graph via Illustrator. 
 
-*Then...* Our reporting instructors thought to compare 2024 data with those of 2016 and 2020. I redid the same process. For the first attempt, I used total vote counts. But, we realized we needed a "fixed" measure of vote differentials for the choropleth map. I decided to re-calculate and plot percentage points instead. 
+(This is part of our class requirement for Craft of Journalism at the Craig Newmark Graduate School of Journalism at CUNY, under the instruction of Eileen Markey and Ben Fractenberg and the editorship of Joe Hirsch.)
 
-We also wanted overlays of roads and parks; hence, QGIS and Illustrator. *(Quick shoutout to Hannah Dormido for the guidance!)*
+*But then...* knowing that I work comfortably with data, our reporting instructors suggested to compare 2024 data with those of 2016 and 2020. 
+
+I redid the same process. For the first attempt, I used total vote counts. But, I realized I needed a "fixed" measure of vote differentials for the choropleth map. I decided to re-calculate and plot percentage points instead. 
+
+We also wanted overlays of roads and parks; hence, the use of QGIS and Illustrator. *(Quick shoutout to Hannah Dormido for the guidance!)*
 
 The first prototype page for the visualization utilized drop-down menus and a JavaScript `event listener` that would show static images of the maps. 
 
