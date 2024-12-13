@@ -26,13 +26,20 @@
             h1 {
                 text-align: center;
             }
+
+            img {
+                max-height: 80svh;
+            }
+
         </style>
     </head>
     <body>
-        <h1>Prototype | How Bronxites vote</h1>
-        <p><b>Sources:</b> NYC Board of Elections, NYC Planning<br>
-        <b>Research and graphic:</b> Cherry Salazar for Mott Haven Herald and Hunts Point Express</p>
+        <h1>How Bronxites vote for president</h1>
+        <p><b>Sources:</b> <a href="https://vote.nyc/page/election-results-summary" target="_blank">NYC Board of Elections</a>, <a href="https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page" target="_blank">Department of City Planning</a> <br>
+        <b>Research and graphic:</b> Cherry Salazar <a href="https://github.com/cmgsalazar/us-elex-official-results" target="_blank">(Github)</a></p>
         
+        <p>Maps show the percentage-point difference in votes between Democratic and Republican presidential candidates in each election distrct in the Bronx, New York City. The vote differential was calculated by subtracting the share of total votes per district of one candidate from the other.</p>
+
         <select id="target">
             <option value="">Select election year...</option>
             <option value="content_1">2024: Harris vs Trump</option>
@@ -40,23 +47,30 @@
             <option value="content_3">2016: Clinton vs Trump</option>
         </select>
 
-        <div id="content_1" class="inv"><img src="images/bx-2024.png" alt="2024 Election Results">
+        <div id="content_1" class="inv">
+            <img src="images/bx-2024.png" alt="2024 Election Results">
             <p>Note: Data show unofficial election night results, as of Nov. 6, 2024</p>
         </div>
-        <div id="content_2" class="inv"><img src="images/bx-2020.png" alt="2020 Election Results"></div>
-        <div id="content_3" class="inv"><img src="images/bx-2016.png" alt="2016 Election Results"></div>
+
+        <div id="content_2" class="inv">
+            <img src="images/bx-2020.png" alt="2020 Election Results">
+        </div>
+        
+        <div id="content_3" class="inv">
+            <img src="images/bx-2016.png" alt="2016 Election Results">
+        </div>
         
         <script>
-            document.getElementById('target').addEventListener('change', function() {
-                // Hide all content divs
-                document.getElementById('content_1').classList.add('inv');
-                document.getElementById('content_2').classList.add('inv');
-                document.getElementById('content_3').classList.add('inv');
+            document.getElementById("target").addEventListener("change", function() {
+                // hide all content divs
+                document.getElementById("content_1").classList.add("inv");
+                document.getElementById("content_2").classList.add("inv");
+                document.getElementById("content_3").classList.add("inv");
 
-                // Show selected content div
+                // show selected content div
                 const selectedValue = this.value;
                 if (selectedValue) {
-                    document.getElementById(selectedValue).classList.remove('inv');
+                    document.getElementById(selectedValue).classList.remove("inv");
                 }
             });
         </script>
