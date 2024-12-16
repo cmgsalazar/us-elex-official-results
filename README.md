@@ -34,7 +34,7 @@ Resulting analysis will be used for a reporting assignment for the [Mott Haven H
 
 ## Visualization
 
-Maps were processed through a mix of Datawrapper, QGIS, Mapbox, and Adobe Illustrator and Photoshop. 
+Maps were processed through a mix of Datawrapper, QGIS, Mapbox, Adobe Illustrator, and Adobe Photoshop. 
 
 ### More about the process... 
 
@@ -52,6 +52,6 @@ The first prototype page for the visualization utilized drop-down menus and a Ja
 
 However, our instructors thought it best to add tooltips and annotations to show more details per election district per year — which would honestly be too much work for one person *(me!)* to do on a tight timeline. (I also admittedly don't have the expertise to do this on my own yet.)
 
-So, I explored Mapbox as an option. `json` and `csv` files were refactored via QGIS, then uploaded as tilesets on Mapbox. (As a last resort, I was told to use Datawrapper's `iframe` to replace static images on the first version of our prototype page.)
+So, I explored Mapbox as an option. I refactored `json` (election districts) and `csv` (vote counts data) files via QGIS, then uploaded them as tilesets on Mapbox. 
 
-This is, quite obviously, a living repository for now. We'll see what happens next. 
+(Alas, I was told we'll be using `iframe` via Datawrapper instead. Here's the [prototype page](https://cmgsalazar.github.io/newmarkj/how-bronx-voted-elections/).)
